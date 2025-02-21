@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 *.log
 .DS_Store  # For macOS users
+echo -e "runs/\n__pycache__/\n*.pyc\n*.log\n.DS_Store" > .gitignore
+echo "yolov8n.pt" >> .gitignore
+echo -e "runs/\n__pycache__/\n*.pyc\n*.log\n.DS_Store\nyolov8n.pt" > .gitignore
